@@ -2,7 +2,7 @@ import sqlalchemy as sq
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
-db = 'postgresql://postgres:520911@localhost/orm'
+db = 'postgresql://postgres:password@localhost/orm'
 engine = sq.create_engine(db)
 
 Base = declarative_base()
